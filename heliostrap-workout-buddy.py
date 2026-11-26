@@ -5,8 +5,8 @@ A PyQt6 GUI that reads live BPM from the Amazfit Helio over BLE and displays
 a workout dashboard with colour-coded heart-rate feedback.
 
 Usage:
-    python helio_dashboard.py                        # auto-discover device
-    python helio_dashboard.py --address AA:BB:..     # connect directly
+    python heliostrap-workout-buddy.py                        # auto-discover device
+    python heliostrap-workout-buddy.py --address AA:BB:..     # connect directly
 """
 
 import argparse
